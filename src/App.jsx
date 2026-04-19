@@ -5,7 +5,7 @@ import Contacts from "./components/contacts.jsx";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen text-white px-10 py-6">
+    <div className="bg-black min-h-screen text-white px-10 py-6 pt-16">
       <Navbar />
 
       <section id="experience" className="mt-10">
