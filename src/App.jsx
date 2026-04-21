@@ -2,10 +2,12 @@ import Navbar from "./components/Navbar.jsx";
 import Experience from "./components/experience.jsx";
 import Projects from "./components/projects.jsx";
 import Contacts from "./components/contacts.jsx";
+import { DottedSurface } from "./components/DottedSurface.jsx";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen text-white px-10 py-6 pt-16">
+    <div className="bg-transparent min-h-screen text-white px-10 py-6 pt-16">
+      <DottedSurface />
       <Navbar />
 
       <section id="experience" className="mt-10">
